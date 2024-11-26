@@ -26,7 +26,7 @@ Feel free to reach out to us for more information or to schedule a consultation:
 
 - **Phone**: +919346678356
 - **Address**: Ambedkar Nagar, Hyderabad
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: sharmavishal8328@gmail.com
 
 ## How to Use This Repository
 
