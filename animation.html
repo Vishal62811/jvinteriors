@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV Interior</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('interior-design.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .header {
+            background-color: gray;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+        .header-left h1 {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            margin: 0;
+        }
+        .contact-info {
+            margin-left: 20px;
+        }
+        .menu-bar {
+            position: relative;
+        }
+        .menu-bar .menu-icon {
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .menu-bar .menu-icon div {
+            width: 20px;
+            height: 2px;
+            background-color: white;
+            margin: 3px 0;
+        }
+        .menu-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 40px;
+            right: 0;
+            background-color: black;
+            display: none;
+            border-radius: 5px;
+        }
+        .menu-bar ul li {
+            margin: 0;
+            padding: 10px 20px;
+        }
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .menu-bar ul li a:hover {
+            background-color: gray;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .calculator {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .calculator input {
+            width: calc(100% - 24px);
+            padding: 10px;
+            margin: 5px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .calculator button {
+            width: calc(25% - 10px);
+            padding: 10px;
+            margin: 5px;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <h1>JV Interior</h1>
+            <div class="contact-info">
+                <p>Contact: +919346678356</p>
+                <p>Address: Ambedkar Nagar, Hyderabad</p>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="menu">
+                <li><a href="#">Modern Kitchen Work</a></li>
+                <li><a href="#">Bedroom Works</a></li>
+                <li><a href="#">Modern Furniture</a></li>
+                <li><a href="#">Readymade Furniture</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Welcome to JV Interior</h2>
+        <p>We specialize in modern furniture and interior design. Let us help you transform your space into a work of art.</p>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <br>
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="setOperation('+')">+</button>
+            <br>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="setOperation('-')">-</button>
+            <br>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="setOperation('*')">*</button>
+            <br>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button
