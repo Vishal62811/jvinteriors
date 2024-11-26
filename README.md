@@ -1,6 +1,6 @@
 # JV Interior
 
-Welcome to our website jvinterios . This repository contains the code for our company's website, which showcases our interior design and furniture services.
+Welcome to our website jvinterios. We provide all kinds of interior design and furniture services based on the customers preferences and requirements.
 
 ## About Us
 
