@@ -1,6 +1,6 @@
 # JV Interior
 
-Welcome to the GitHub repository for JV Interior. This repository contains the code for our company's website, which showcases our interior design and furniture services.
+Welcome to our website jvinterios. This repository contains the code for our company's website, which showcases our interior design and furniture services.
 
 ## About Us
 
