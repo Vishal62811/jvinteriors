@@ -28,8 +28,3 @@ Feel free to reach out to us for more information or to schedule a consultation:
 - **Address**: Ambedkar Nagar, Hyderabad
 - **Email**: sharmavishal8328@gmail.com
 
-## How to Use This Repository
-
-1. **Clone the Repository**: Clone this repository to your local machine using:
-   ```sh
-   git clone https://github.com/yourusername/yourrepository.git
